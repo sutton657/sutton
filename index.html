@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Please Wait...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        h2 { color: #333; }
+        p { color: #666; font-size: 14px; }
+        .loader {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Verifying your link...</h2>
+        <p>You are being securely redirected to your content.</p>
+        <div class="loader"></div>
+    </div>
+
+    <script>
+        // Redirects after 4 seconds (4000 milliseconds)
+        setTimeout(function(){
+            window.location.href = "https://link.bruinel.com/True/1/O_5vyxr9kXGtH5VujOX4hjRJHVfdZTB_s5NIXwoZ0b6Mhrt1VCqUy77Lzfu5FLLXfoN0VxKvw0jB1Q4mL-gxRziswEycF3ZFH2tru0jGypI4tHjMiEtONpm-zEpt3Cuq";
+        }, 4000);
+    </script>
+</body>
+</html>
